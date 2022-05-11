@@ -9,6 +9,9 @@ import {
 } from "redux-dynamic-modules-core";
 
 export interface IDynamicModuleLoaderProps {
+    /** Ad this prop to satisfy TS18 requirements that children be an explicity prop */
+    children: React.ReactNode;
+
     /** Modules that need to be dynamically registerd */
     modules: IModuleTuple;
 
