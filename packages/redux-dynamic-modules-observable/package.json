@@ -62,5 +62,8 @@
         "redux-observable": ">=1.x",
         "rxjs": ">=6.x"
     },
-    "gitHead": "8ea732047c2a08b1421ed68e76643e0bb6aa9362"
+    "gitHead": "8ea732047c2a08b1421ed68e76643e0bb6aa9362",
+    "dependencies": {
+        "lerna": "^4.0.0"
+    }
 }
